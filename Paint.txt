@@ -1,0 +1,35 @@
+package intellect;
+
+
+public abstract class Paint{
+	abstract void color();
+	
+}
+class RedPaint extends Paint{
+
+	@Override
+	void color() {
+		// TODO Auto-generated method stub
+		System.out.println("Red color");
+	}
+	
+	}
+class BluePaint extends Paint{
+
+	@Override
+	void color() {
+		System.out.println("Blue colour paint....");// TODO Auto-generated method stub
+		
+	}
+	
+}
+class GreenPaint extends Paint{
+
+	@Override
+	void color() {
+		// TODO Auto-generated method stub
+		System.out.println("Green colour paint....");
+	}
+	
+	}
+
