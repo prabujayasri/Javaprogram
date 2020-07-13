@@ -1,0 +1,28 @@
+package intellect;
+
+public class ArrayDemo {
+	ClassRoom myclassrooms[]=new ClassRoom[5];
+	
+	public ArrayDemo() {
+		for(int i=0;i<myclassrooms.length;i++) {
+			myclassrooms[i]=new ClassRoom("currently not");
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayDemo obj=new ArrayDemo();
+		System.out.println(obj.myclassrooms[2].subject);
+	
+}
+	}
+class ClassRoom{
+	String subject;
+	public ClassRoom(String subject) {
+		this.subject=subject;
+	}
+}
+
+
+
