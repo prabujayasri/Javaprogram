@@ -1,0 +1,38 @@
+package junit;
+
+public abstract class Item {
+	abstract void play();
+	
+}
+	class Stone extends Item{
+
+		@Override
+		void play() {
+			// TODO Auto-generated method stub
+			System.out.println("run the dog");
+		}
+		
+		
+			}
+	class Stick extends Item{
+
+		@Override
+		void play() {
+			// TODO Auto-generated method stub
+			System.out.println("You beat I bite.......");
+		}
+		
+		
+
+
+}
+	class biscuit extends Item{
+
+		@Override
+		void play() {
+			// TODO Auto-generated method stub
+			System.out.println("yummy yummy.....wags tail....");
+		}
+		
+	}
+	
