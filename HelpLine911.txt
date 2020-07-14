@@ -1,0 +1,43 @@
+package program;
+
+public class HelpLine911 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Handle hd=new Lion();
+		hd.connect();
+				
+
+	}
+
+}
+ abstract class Handle{
+	public abstract void connect();
+}
+ class Dog extends Handle{
+
+	@Override
+	public void connect() {
+		// TODO Auto-generated method stub
+		System.out.println("i will handle dog...");
+	}
+	 
+ }
+ class Lion extends Handle {
+
+	@Override
+	public void connect() {
+		// TODO Auto-generated method stub
+		System.out.println("i will handle Lion");
+	}
+ }
+	 
+ class Office extends Handle{
+
+	@Override
+	public void connect() {
+		// TODO Auto-generated method stub
+		System.out.println("i will handle officeboy");
+	}
+	 
+ }
